@@ -1,0 +1,43 @@
+{
+  "name": "mastering_next_js_13_with_typescript",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "preview-email": "email dev -p 3030"
+  },
+  "dependencies": {
+    "@auth/prisma-adapter": "^1.4.0",
+    "@prisma/client": "^5.10.2",
+    "@react-email/components": "^0.0.15",
+    "@types/node": "20.7.0",
+    "@types/react": "18.2.23",
+    "@types/react-dom": "18.2.7",
+    "@vercel/speed-insights": "^1.0.10",
+    "autoprefixer": "10.4.16",
+    "bcrypt": "^5.1.1",
+    "eslint": "8.50.0",
+    "eslint-config-next": "13.5.3",
+    "fast-sort": "^3.4.0",
+    "next": "13.5.3",
+    "next-auth": "^4.24.6",
+    "next-cloudinary": "^5.20.0",
+    "postcss": "8.4.30",
+    "prisma": "^5.9.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-email": "^2.1.0",
+    "resend": "^3.2.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "daisyui": "^4.7.2",
+    "encoding": "^0.1.13"
+  }
+}
